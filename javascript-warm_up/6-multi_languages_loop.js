@@ -1,6 +1,7 @@
 #!/usr/bin/node
-
-const complements = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-for (const complement of complements) {
-  console.log(complement);
+const msg = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+let i = 0;
+while (i < msg.length) {
+  console.log(msg[i]);
+  i++;
 }
